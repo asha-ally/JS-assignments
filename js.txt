@@ -1,0 +1,91 @@
+SW registered
+0/0
+
+NaN
+
+1/0
+
+Infinity
+
+var i=0;
+
+undefined
+
+i++;
+
+0
+i++;
+
+1
+
+i--;
+
+2
+i--;
+
+1
+
+i--;
+
+0
+
+var hungry
+
+undefined
+
+var hungry=true;
+
+undefined
+
+hungry ? prompt('eat'): console.log('sleep')
+"
+"
+hungry ? prompt('eat'): console.log('sleep');
+"
+"
+hungry ? prompt('eat') : console.log('sleep');
+"
+"
+var hungry=false;
+
+undefined
+
+hungry ? prompt('eat') : console.log('sleep');
+
+VM255:1
+ sleep
+
+undefined
+
+const b=6
+
+undefined
+
+b
+
+6
+
+delete b;
+
+false
+obj= { name: "Asha", hungry : true }
+
+if (name in obj ) { console.log(true) }
+
+undefined
+
+if ('name' in obj ) { console.log(true) }
+VM466:1
+ true
+
+undefined
+
+if ('names' in obj ) { console.log(true) }
+
+undefined
+
+if(obj.hasOwnProperty("name")) {console.log('yes') }
+VM538:1
+ yes
+
+undefined
