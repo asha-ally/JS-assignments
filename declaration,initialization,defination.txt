@@ -1,0 +1,7 @@
+Declaration: You are declaring that something exists, such as a class, function or variable. You don't say anything about what that class or function looks like, you just say that it exists.
+
+Definition: You define how something is implemented, such as a class, function or variable, i.e. you say what it actually is.
+
+initialization is a special kind of assignment: the first. Before initialization objects have null value and primitive types have default values such as 0 or false. Can be done in conjunction with declaration.
+
+while assignment is throwing away the old value of a variable and replacing it with a new one
