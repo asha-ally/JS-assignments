@@ -1,0 +1,10 @@
+var fruits=["Apple","Mangoes","pineapples","oranges"]
+undefined
+fruits[0]
+"Apple"
+fruits[1]
+"Mangoes"
+fruits[2]
+"pineapples"
+fruits[3]
+"oranges"
