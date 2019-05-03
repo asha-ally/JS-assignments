@@ -3,7 +3,7 @@ class KioskCalc{
   {
     this.fruitsPriceList = {"bananas":100,"oranges":30,"peaches":50};
     this.fruit_name = fruit;
-    this.recent_fruit = this.fruitsPriceList[fruit];
+    this.recent_price = this.fruitsPriceList[fruit];
     this.quantity = quantity;
   }
   getTotalCost ()
