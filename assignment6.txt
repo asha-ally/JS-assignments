@@ -1,34 +1,33 @@
-var kiosk=
+function Kiosk () {
 
-    {fruit:"oranges",
-  
-
-  
-    setFruits(kiosk)
-  
-    {
-     
-      return this.fruits;
-   
-     },
-   
-      getFruits(kiosk){
-      
-       this.fruits=mangoes;}
-  
-     }
-     
+	var fruits = ['mango','banana','apple']
 
 
+function setFruit (fruit) {return 'mango'}
 
-kiosk.fruit
+function getFruits (fruitslist) {return 'mango','banana','apple'}
 
-"oranges"
+var fruits = {
+	
+	setFruit : setFruit,
+	
+	getFruits : getFruits
 
-getFruits="guavas","grapes";
+}
 
-"grapes"
+return fruits; 
+}
 
-getFruits
+   //undefined
 
-"guavas"
+
+Kiosk.setFruit = 'mango'
+
+"mango"
+Kiosk.getFruits = ['mango','banana','apple']
+(3) ["mango", "banana", "apple"]
+0: "mango"
+1: "banana"
+2: "apple"
+length: 3
+__proto__: Array(0)
