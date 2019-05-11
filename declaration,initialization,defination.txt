@@ -1,7 +1,16 @@
-Declaration: You are declaring that something exists, such as a class, function or variable. You don't say anything about what that class or function looks like, you just say that it exists.
+ECMAScript Assignment 2- 12 March 2019
 
-Definition: You define how something is implemented, such as a class, function or variable, i.e. you say what it actually is.
+What is the difference between definition, declaration and initialization?
+-A declaration is when the variable is registered using a given name within the corresponding scope (inside a function).
+                        eg. var a;        // the variable a has been declared.
 
-initialization is a special kind of assignment: the first. Before initialization objects have null value and primitive types have default values such as 0 or false. Can be done in conjunction with declaration.
 
-while assignment is throwing away the old value of a variable and replacing it with a new one
+-Initialization is when you declare a variable it is automatically initialized, which means memory is allocated for the variable by the JavaScript engine (the computer has stored it and will remember it).
+                        eg. var a = 'foo';  
+                           // the variable a has been assigned the value 'foo' and has been initialized so that the computer will remember it.
+
+
+-Definition is showing how something has been implemented like a function or a variable.
+                        eg. var a = 'foo';
+                                a
+                                foo     // the variable a has been defined by the assignment 'foo'.
